@@ -1,0 +1,9 @@
+# Force all files to use Linux Line Endings (LF)
+* text=auto eol=lf
+
+# Explicitly force scripts to be LF (Critical for S6 overlay and Bash)
+*.sh text eol=lf
+*.bash text eol=lf
+run text eol=lf
+finish text eol=lf
+type text eol=lf
